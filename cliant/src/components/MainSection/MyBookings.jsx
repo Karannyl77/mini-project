@@ -4,11 +4,13 @@ import { MdDelete } from "react-icons/md";
 import { FaPencilAlt } from "react-icons/fa";
 import DeleteAlert from "./DeleteAlert";
 import UpdateAlert from "./UpdateAlert";
+import LoaderComponent from "./LoaderComponent";
 
 const MyBookings = () => {
   const [bookingObj, setBookingObj] = useState([]);
   const [deleteVisibility, setDeleteVisibility] = useState(false);
   const [updateVisibility, setUpdateVisibility] = useState(false);
+  const [loaderVisibility, setLoaderVisibility] = useState(true);
   const [movieId, setMovieId] = useState(null);
 
   const getMovieBookings = async () => {
@@ -16,6 +18,7 @@ const MyBookings = () => {
     // For deployment in MERN Stack Remove the localhost url.
     const res = await axios.get("http://localhost:8080/api/booking");
     setBookingObj(res.data);
+    setLoaderVisibility(false);
   };
 
   // useEffect Hook for rendering the function.
@@ -96,6 +99,8 @@ const MyBookings = () => {
           );
         })}
       </div>
+      {/* Loader Component */}
+      {loaderVisibility && <LoaderComponent loaderVisibility={loaderVisibility} />}
       {/* Setting the Delete Alert */}
       <DeleteAlert
         message={"Do you want to delete this Booking?"}
