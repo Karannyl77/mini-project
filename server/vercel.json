@@ -4,12 +4,24 @@
     {
       "src": "server.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "build/",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/booking",
       "dest": "server.js"
+    },
+    {
+      "src": "/api/booking/(.*)",
+      "dest": "server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "build/"
     }
   ]
 }
