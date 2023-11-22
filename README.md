@@ -18,8 +18,7 @@ This is a complete MERN stack application which has the functionalities of booki
 - [React-toastify] - (https://fkhadra.github.io/react-toastify/introduction/)
 
 ## Simple Video Demo
-
-[Youtube] - (https://www.youtube.com/watch?v=SSoX6Yo-vs8)
+[Youtube] - (https://www.youtube.com/watch?v=SX1drK7QpvM)
 
 ## Deployment Link
 [Versal] - (https://movie-ticket-booking-application.vercel.app/)
@@ -39,9 +38,11 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 ### Some More Features about the Project
 - This Project is completely responsive for any Kind of device.
 - It Provides a better User Interface and Better User Experience.
-- It Provides a Coin Exchange Feature so that the user is able to sell and buy different currencies.
-- We also able to see the market cap of different currencies.
-- A Search Box is implemented to filter out different cryptocurrencies.
-- Different Charts like Line, Bar and Pie Charts are used to provide better User Experience.
+- This application provides the functionalities like Creating, Viewing, Updating and Deleting the movie ticket.
+- The api's are Restful and being deployed on versal.
+- APIs can be accessable every where.
+- MongoDB data base is used for storing the movie details.
+- Mongo Atlas is used so that the bookings can be accessable every where.
+- The User Interface of this application creates better user Experience.
 
 ## ----- Thank You -----
