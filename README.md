@@ -17,6 +17,9 @@ This is a complete MERN stack application which has the functionalities of booki
 - [TailwindCSS] - (https://tailwindcss.com/)
 - [React-toastify] - (https://fkhadra.github.io/react-toastify/introduction/)
 
+## API Documentation
+[Postman] - (https://documenter.getpostman.com/view/26555496/2s9YeABukb)
+
 ## Simple Video Demo
 [Youtube] - (https://www.youtube.com/watch?v=SX1drK7QpvM)
 
