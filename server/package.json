@@ -10,7 +10,7 @@
   "keywords": [
     "movie"
   ],
-  "author": "Tushar Kanta Swain",
+  "author": "Project Sem 4",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
